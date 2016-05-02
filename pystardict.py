@@ -646,7 +646,7 @@ def open_file(regular, gz):
     try:
         return open(regular, 'rb')
     except IOError as e:
-        warn(e.message)
+        # warn(e.message)
         try:
             return gzip.open(gz, 'rb')
         except IOError:
