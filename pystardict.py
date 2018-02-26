@@ -357,7 +357,7 @@ class _StarDictDict(object):
         self._in_memory = in_memory
 
         dict_filename = '%s.dict' % dict_prefix
-        dict_filename_dz = '%s.dz' % dict_filename
+        dict_filename_dz = '%s.dict.dz' % dict_filename
 
         if in_memory:
             try:
